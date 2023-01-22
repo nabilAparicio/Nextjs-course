@@ -1,15 +1,16 @@
+import { FC } from 'react';
 import Head from 'next/head';
 import { Navbar } from '../Navbar';
 
 
 import styles from './MainLayout.module.css';
 
-export const MainLayout = ({ children }) => {
+export const MainLayout: FC = ({ children }) => {
     return (
         <div className={styles.container}>
           
           <Head>
-            <title>Home - Fernando</title>
+            <title>Home - Orlando</title>
             <meta name="description" content="Home Page" />
             <link rel="icon" href="/favicon.ico" />
           </Head>
